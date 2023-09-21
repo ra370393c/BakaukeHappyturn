@@ -120,7 +120,7 @@ def upload_file():
             #変換したデータをモデルに渡して予測する
             ## 判別
             with torch.no_grad():
-                outputs = loaded_model(data)
+                outputs = model(img)
                 _, predicted = torch.max(outputs, 1)
                 
             # predictedはクラスのインデックスです
