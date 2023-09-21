@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content="device-width, initial-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content="ie=edge">
+    <title>Number Classifier</title>
+    <link rel='stylesheet' href="./static/stylesheet.css">
+</head>
+<body>
+    <header>   
+        <img class='header_img' src="https://4.bp.blogspot.com/-yVVd3S10oxQ/UnIEIjm5rVI/AAAAAAAAZ-k/rcPtTF9-_ko/s800/dog_cat_nakayoshi.png" alt="Cure">
+        <a class='header-logo' href="#">Cats&Dogs Detector</a>
+    </header>
+
+    <div class='main'>
+        <h2> AIが送信された画像から犬か猫を判別します</h2>
+        <p>画像を送信してください</p>
+        <form method='POST' enctype="multipart/form-data">
+            <input class='file_choose' type="file" name="file">
+            <input class='btn' value="submit!" type="submit">
+        </form>
+        <div class='answer'>{{answer}}</div>
+    </div>
+
+    <footer>
+        <img class='footer_img' src="https://4.bp.blogspot.com/-yVVd3S10oxQ/UnIEIjm5rVI/AAAAAAAAZ-k/rcPtTF9-_ko/s800/dog_cat_nakayoshi.png" alt="Cure">
+    </footer>
+</body>
+</html>

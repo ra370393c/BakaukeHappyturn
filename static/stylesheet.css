@@ -1,0 +1,83 @@
+header {
+    background-color: #76B55B;
+    height: 60px;
+    margin: -8px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.header-logo {
+    color: #fff;
+    font-size: 25px;
+    margin: 15px 25px;
+}
+
+.header_img {
+    height: 35px;
+    margin: 15px 25px;
+}
+
+body {
+    background-image: url("https://pixabay.com/get/g153df51fde9c61c22767ab5ab609cc52f12a4159ef35ea0397300878691c24c15cf9b497a3f1725a4801a33270ac20da_640.png");
+	background-position: right 10%;
+	/* background-repeat: no-repeat; */
+	background-size: 40% auto;
+  }
+
+.main {
+    height: 370px;
+}
+
+
+
+h2 {
+    color: #444444;
+    margin: 80px 10px;
+    font-size: 35px;
+    text-align: center;
+}
+
+p {
+    color:#000000;
+    margin: 0px 0px 0px 0px;
+    font-weight:bold;
+    font-size: 20px;
+    line-height:777%;
+    font-family:fantasy,Meiryo,sans-serif;
+    text-align:center;
+    }
+
+.answer {
+    font-size: 60px;
+    font-weight:bold;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    background: -webkit-linear-gradient(-45deg, #F7DE05, #DA8E00, #EDAC06, #F7DE05, #ECB802, #DAAF08, #B67B03, #DA8E00, #EDAC06, #F7DE05, #ECB802, #EDAC06);
+}
+
+form {
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    background-color: #89deda;
+    color: #fff;
+    padding: 20px 0;
+
+ position: absolute;/*←絶対位置*/
+    bottom: 0; /*下に固定*/
+}
+
+.footer_img {
+    height: 35px;
+    margin: 15px 25px;
+}
+
+small {
+    margin: 15px 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
