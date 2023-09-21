@@ -111,7 +111,7 @@ def upload_file():
             ])
             
             #受け取った画像を読み込み、np形式に変換
-            img = Image.open(filepath)
+            img = Image.open(filepath).convert('RGB')
             #img = image.load_img(filepath, grayscale=False, target_size=(image_size,image_size,3))
             #img = image.img_to_array(img)
             #data = np.array([img])
