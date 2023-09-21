@@ -35,4 +35,4 @@ Werkzeug==2.0.0
 torch
 torchvision
 torchmetrics
-pytorch_lightnin
+pytorch_lightning
